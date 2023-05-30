@@ -1,0 +1,33 @@
+body {
+    font-family: 'roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: #eee;
+    line-height: 1.6;
+    font-weight: 300;
+    /* min-height: 2000px; */
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.typography {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 700px) {
+    .typography {
+        flex-direction: row;
+    }
+}
+
+.typography .col {
+    flex: 1;
+    margin: 4em 3em;
+    padding: 4em 3em;
+    background-color: slategray;
+}
+
+/* em */
